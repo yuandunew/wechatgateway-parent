@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="user_rest:war exploded">
+    <output-path>$PROJECT_DIR$/user_rest/target/user_rest</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="user_rest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.cloud:error:unknown" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-commons:1.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:4.0.4.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/user_rest/target/user_rest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="user_rest/web/Web" />
+    </root>
+  </artifact>
+</component>
