@@ -19,6 +19,7 @@
     <modules>
         <module>user_service</module>
         <module>user_rest</module>
+        <module>user_api</module>
     </modules>
 
 
