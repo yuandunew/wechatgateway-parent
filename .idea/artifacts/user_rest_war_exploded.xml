@@ -88,6 +88,10 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.0.33" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring-boot-starter:1.1.1" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper-spring-boot-autoconfigure:1.1.1" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper:3.3.4" />
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.3.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.3.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.0.33" />
@@ -104,8 +108,6 @@
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.29" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.0.0" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.1" />
-          <element id="library" level="project" name="Maven: tk.mybatis:mapper:3.3.4" />
-          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
           <element id="file-copy" path="$MAVEN_REPOSITORY$/com/yuandu/yuandu_common/1.0-SNAPSHOT/yuandu_common-1.0-20170909.085510-1.jar" output-file-name="yuandu_common-1.0-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.32" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.6" />
