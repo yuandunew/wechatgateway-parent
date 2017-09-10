@@ -19,11 +19,10 @@
         <property name="endingDelimiter" value="`"/>
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="${mybatis.mapperLocations}"/>
+            <property name="mappers" value="com.yuandu.yuandu_mybatis.mapper.YuanduMapper"/>
             <!-- caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true -->
             <!--<property name="caseSensitive" value="true"/>-->
         </plugin>
-
 
 
         <commentGenerator>
@@ -37,6 +36,7 @@
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="${mybatis.typeAliasesPackage}" targetProject="src/main/java">
+            <property name="rootClass" value="com.yuandu.yuandu_mybatis.model.YuanduModel"/>
         </javaModelGenerator>
 
         <sqlMapGenerator targetPackage="${mybatis.mapperLocations}" targetProject="src/main/java">
@@ -50,6 +50,7 @@
 
 
         <table tableName="user" domainObjectName="UserEntity">
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
     </context>
 </generatorConfiguration>

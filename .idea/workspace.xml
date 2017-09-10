@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88dd267-6d49-4849-b1f5-3595f44d3c2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_service/src/main/resources/mybatis.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/user_rest_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/user_rest_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_rest/user_rest.iml" afterPath="$PROJECT_DIR$/user_rest/user_rest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_service/pom.xml" afterPath="$PROJECT_DIR$/user_service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml" afterPath="$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_service/user_service.iml" afterPath="$PROJECT_DIR$/user_service/user_service.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,36 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mybatis-generator.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserEntityMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Mapper.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/annotations/Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,10 +29,52 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mybatis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-generator.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapperPlugin.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.3.4/mapper-3.3.4-sources.jar!/tk/mybatis/mapper/generator/MapperPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEntityMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserEntityMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="44">
               <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding />
             </state>
@@ -78,19 +85,41 @@
         <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/model/UserEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1505029210000" expanded="false" signature="471:482" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="492:498" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="563:574" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="587:593" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="658:669" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="681:687" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="760:771" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="788:794" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="855:866" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="877:883" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="951:962" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="977:983" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="1054:1065" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="1081:1087" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="1170:1181" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="1206:1212" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="1286:1297" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="1313:1319" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="1404:1415" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="1440:1446" ph=" }" />
+                <marker date="1505029210000" expanded="false" signature="1517:1528" ph=" { " />
+                <marker date="1505029210000" expanded="false" signature="1543:1549" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user_service/pom.xml">
+      <file leaf-file-name="YuanduModel.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/yuandu/yuandu_mybatis/1.0-SNAPSHOT/yuandu_mybatis-1.0-SNAPSHOT.jar!/com/yuandu/yuandu_mybatis/model/YuanduModel.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="126">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -128,10 +157,10 @@
         <option value="$PROJECT_DIR$/user_service/src/main/resources/generator.xml" />
         <option value="$PROJECT_DIR$/user_service/src/main/resources/mybatis.properties" />
         <option value="$PROJECT_DIR$/user_service/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/model/UserEntity.java" />
-        <option value="$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.java" />
         <option value="$PROJECT_DIR$/user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.java" />
+        <option value="$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml" />
       </list>
     </option>
   </component>
@@ -246,7 +275,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -263,6 +292,41 @@
             <path>
               <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.yuandu:yuandu_mybatis:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.yuandu:yuandu_mybatis:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="yuandu_mybatis-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.yuandu:yuandu_mybatis:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="yuandu_mybatis-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="yuandu_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.yuandu:yuandu_mybatis:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="yuandu_mybatis-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="yuandu_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.yuandu:yuandu_mybatis:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="yuandu_mybatis-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="yuandu_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="YuanduModel" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.mybatis:mybatis:3.4.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -274,17 +338,47 @@
             <path>
               <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: tk.mybatis:mapper:3.3.4" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: tk.mybatis:mapper:3.3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="mapper-3.3.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: tk.mybatis:mapper:3.3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="mapper-3.3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: tk.mybatis:mapper:3.3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="mapper-3.3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: tk.mybatis:mapper:3.3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="mapper-3.3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: tk.mybatis:mapper:3.3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="mapper-3.3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="MapperPlugin" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -422,12 +516,12 @@
       <workItem from="1504596021646" duration="55000" />
       <workItem from="1504622028093" duration="1259000" />
       <workItem from="1504666473503" duration="924000" />
-      <workItem from="1504968366834" duration="8471000" />
+      <workItem from="1504968366834" duration="9917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14670000" />
+    <option name="totallyTimeSpent" value="16116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="0" />
@@ -440,7 +534,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -804,37 +898,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis.properties">
+    <entry file="file://$PROJECT_DIR$/user_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="260">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/model/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,18 +914,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.java">
+    <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="252">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="126">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/mapper/UserEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.3.4/mapper-3.3.4-sources.jar!/tk/mybatis/mapper/generator/MapperPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_service/src/main/java/com/yuandu/user_service/dao/model/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1505029210000" expanded="false" signature="471:482" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="492:498" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="563:574" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="587:593" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="658:669" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="681:687" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="760:771" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="788:794" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="855:866" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="877:883" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="951:962" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="977:983" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="1054:1065" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="1081:1087" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="1170:1181" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="1206:1212" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="1286:1297" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="1313:1319" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="1404:1415" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="1440:1446" ph=" }" />
+            <marker date="1505029210000" expanded="false" signature="1517:1528" ph=" { " />
+            <marker date="1505029210000" expanded="false" signature="1543:1549" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yuandu/yuandu_mybatis/1.0-SNAPSHOT/yuandu_mybatis-1.0-SNAPSHOT.jar!/com/yuandu/yuandu_mybatis/model/YuanduModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_service/src/main/resources/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
           <folding />
         </state>
       </provider>
