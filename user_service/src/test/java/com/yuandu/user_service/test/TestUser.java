@@ -25,7 +25,7 @@ public class TestUser {
     @org.junit.Test
     public void test() throws Exception {
         UserEntity user = new UserEntity();
-        user.setId(1L);
+        user.setId(2L);
         user.setName("龙");
         user.setSex(1);
         user.setYuanduId("yuandu1");
