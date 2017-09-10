@@ -15,10 +15,10 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
@@ -27,6 +27,10 @@
             <groupId>com.yuandu</groupId>
             <artifactId>yuandu_mybatis</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yuandu</groupId>
+            <artifactId>yuandu_common</artifactId>
         </dependency>
         
     </dependencies>
