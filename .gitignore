@@ -1,4 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
-.gitignore
-.idea/inspectionProfiles/
-
+/.idea/
+/user_service/user_service.iml
+/user_rest/user_rest.iml
+/user_rest/target/
+/user_service/target/
+/user_api/user_api.iml
+/user_api/target/
