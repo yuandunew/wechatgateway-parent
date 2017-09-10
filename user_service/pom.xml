@@ -32,6 +32,10 @@
             <groupId>com.yuandu</groupId>
             <artifactId>yuandu_common</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.yuandu</groupId>
+            <artifactId>yuandu_redis</artifactId>
+        </dependency>
         
     </dependencies>
 
