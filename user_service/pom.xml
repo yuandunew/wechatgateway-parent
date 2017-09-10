@@ -25,10 +25,20 @@
         </dependency>
         <dependency>
             <groupId>com.yuandu</groupId>
-            <artifactId>user_api</artifactId>
+            <artifactId>yuandu_mybatis</artifactId>
             <version>${project.version}</version>
         </dependency>
-
+        
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+
+    </build>
 
 </project>

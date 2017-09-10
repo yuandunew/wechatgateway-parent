@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <properties resource="mybatis.properties"/>
+
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+
+        <property name="autoDelimitKeywords" value="true"/>
+        <!-- 生成的Java文件的编码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 格式化java代码 -->
+        <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+        <!-- 格式化XML代码 -->
+        <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="${mybatis.mapperLocations}"/>
+            <!-- caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true -->
+            <!--<property name="caseSensitive" value="true"/>-->
+        </plugin>
+
+
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="${db.driverClass}"
+                        connectionURL="${master.db.url}" userId="${master.db.username}"
+                        password="${master.db.password}">
+        </jdbcConnection>
+
+        <javaModelGenerator targetPackage="${mybatis.typeAliasesPackage}" targetProject="src/main/java">
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="${mybatis.mapperLocations}" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="${mybatis.mapperLocations}"
+                             targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+
+        <table tableName="user" domainObjectName="UserEntity">
+        </table>
+    </context>
+</generatorConfiguration>
