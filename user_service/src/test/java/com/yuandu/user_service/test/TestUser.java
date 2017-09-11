@@ -10,7 +10,10 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 import yuandu_common.date.DateUtils;
+import yuandu_common.exceptions.YuanduBaseException;
+import yuandu_common.exceptions.YuanduExceptionCode;
 import yuandu_common.json.JsonUtils;
 
 import java.util.Date;
@@ -28,9 +31,10 @@ public class TestUser {
     private Logger logger = LogManager.getLogger(TestUser.class);
 
     @org.junit.Test
+//    @Transactional
     public void test() throws Exception {
         UserEntity user = new UserEntity();
-        user.setId(3L);
+        user.setId(5L);
         user.setName("龙");
         user.setSex(1);
         user.setYuanduId("yuandu1");
@@ -39,6 +43,8 @@ public class TestUser {
         userService.saveUser(user);
 
         redisObjectRepository.add("user_redis", user, 600L);
+
+        YuanduBaseException.throwException(YuanduExceptionCode.IO_WRONG);
     }
 
     @org.junit.Test
