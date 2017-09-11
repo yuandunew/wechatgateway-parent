@@ -36,7 +36,7 @@
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="${mybatis.typeAliasesPackage}" targetProject="src/main/java">
-            <property name="rootClass" value="com.yuandu.yuandu_mybatis.model.BaseEntity"/>
+            <property name="rootClass" value="com.yuandu.yuandu_mybatis.entity.BaseEntity"/>
         </javaModelGenerator>
 
         <sqlMapGenerator targetPackage="${mybatis.mapperLocations}" targetProject="src/main/java">

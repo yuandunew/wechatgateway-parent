@@ -1,5 +1,2 @@
 server:
   port: 2222
-spring:
-  application:
-    name: user_service

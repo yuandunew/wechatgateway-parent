@@ -1,16 +1,15 @@
-package com.yuandu.user_service.test;
+package com.yuandu.user.service.test;
 
-import com.yuandu.APP;
-import com.yuandu.user_service.dao.model.UserEntity;
-import com.yuandu.user_service.dao.service.UserService;
-import com.yuandu.yuandu_redis.repository.RedisObjectRepository;
+import com.yuandu.user.App;
+import com.yuandu.user.dao.model.UserEntity;
+import com.yuandu.redis.repository.RedisObjectRepository;
+import com.yuandu.user.service.UserService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.transaction.annotation.Transactional;
 import yuandu_common.date.DateUtils;
 import yuandu_common.exceptions.YuanduBaseException;
 import yuandu_common.exceptions.YuanduExceptionCode;
@@ -19,7 +18,7 @@ import yuandu_common.json.JsonUtils;
 import java.util.Date;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = APP.class)
+@SpringApplicationConfiguration(classes = App.class)
 public class TestUser {
 
     @Autowired
@@ -40,7 +39,7 @@ public class TestUser {
         user.setYuanduId("yuandu1");
         user.setMobeile("18476030086");
         user.setBirthday(DateUtils.getAfterDate(new Date(), 1));
-        userService.saveUser(user);
+        userService.save(user);
 
         redisObjectRepository.add("user_redis", user, 600L);
 

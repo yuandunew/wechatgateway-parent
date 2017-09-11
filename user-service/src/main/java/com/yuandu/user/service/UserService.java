@@ -1,7 +1,7 @@
-package com.yuandu.user_service.dao.service;
+package com.yuandu.user.service;
 
-import com.yuandu.user_service.dao.mapper.UserEntityMapper;
-import com.yuandu.user_service.dao.model.UserEntity;
+import com.yuandu.user.dao.mapper.UserEntityMapper;
+import com.yuandu.user.dao.model.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,8 +10,7 @@ public class UserService {
     @Autowired
     private UserEntityMapper userEntityMapper;
 
-    public void saveUser(UserEntity userEntity){
+    public void save(UserEntity userEntity){
         userEntityMapper.insert(userEntity);
     }
-
 }
