@@ -4,11 +4,11 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="user_rest" />
+          <element id="module-output" name="user-rest" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="user_service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="user_service" />
+            <element id="module-output" name="user-service" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-feign:1.1.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter:1.1.0.RELEASE" />
@@ -139,9 +139,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/user_rest/target/user_rest/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/user-rest/target/user_rest/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="user_rest/web/Web" />
+      <element id="javaee-facet-resources" facet="user-rest/web/Web" />
     </root>
   </artifact>
 </component>

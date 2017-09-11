@@ -5,21 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yuandu</groupId>
-    <artifactId>user_parent</artifactId>
+    <artifactId>user-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
         <groupId>com.yuandu</groupId>
-        <artifactId>yuandu_parent</artifactId>
+        <artifactId>yuandu-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <modules>
-        <module>user_service</module>
-        <module>user_rest</module>
-        <module>user_api</module>
+        <module>user-service</module>
+        <module>user-rest</module>
+        <module>user-api</module>
     </modules>
 
 

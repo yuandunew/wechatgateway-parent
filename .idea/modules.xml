@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/user_api/user_api.iml" filepath="$PROJECT_DIR$/user_api/user_api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user_parent.iml" filepath="$PROJECT_DIR$/user_parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user_rest/user_rest.iml" filepath="$PROJECT_DIR$/user_rest/user_rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user_service/user_service.iml" filepath="$PROJECT_DIR$/user_service/user_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-api/user-api.iml" filepath="$PROJECT_DIR$/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-parent.iml" filepath="$PROJECT_DIR$/user-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-rest/user-rest.iml" filepath="$PROJECT_DIR$/user-rest/user-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
     </modules>
   </component>
 </project>
