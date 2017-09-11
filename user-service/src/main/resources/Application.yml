@@ -1,2 +1,38 @@
 server:
   port: 2222
+
+
+redis:
+  host: localhost
+  port: 6379
+  timeout: 30000
+  pool:
+    maxTotal: 50
+    maxIdle: 10
+    minIdle: 2
+    maxWaitMillis: 0
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+
+
+mybatis:
+  typeAliasesPackage: com.yuandu.user.dao.model
+  mapperLocations: com.yuandu.user.dao.mapper
+
+  db:
+    driverClass: com.mysql.jdbc.Driver
+    initialSize: 10
+    maxActive: 500
+    maxWait: 14400
+    minIdle: 2
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    testOnBorrow: false
+    testOnReturn: false
+
+    master:
+      url: jdbc:mysql://127.0.0.1:3306/user?seUnicode=true&amp;characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 123456
+

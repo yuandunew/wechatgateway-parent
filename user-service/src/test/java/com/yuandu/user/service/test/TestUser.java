@@ -33,7 +33,7 @@ public class TestUser {
 //    @Transactional
     public void test() throws Exception {
         UserEntity user = new UserEntity();
-        user.setId(6L);
+        user.setId(7L);
         user.setName("龙");
         user.setSex(1);
         user.setYuanduId("yuandu1");
