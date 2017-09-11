@@ -1,4 +1,4 @@
-package com.yuandu.user;
+package com.yuandu;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

@@ -1,6 +1,10 @@
 package com.yuandu.user.service.test;
 
-import com.yuandu.user.App;
+import com.yuandu.common.date.DateUtils;
+import com.yuandu.common.exceptions.YuanduBaseException;
+import com.yuandu.common.exceptions.YuanduExceptionCode;
+import com.yuandu.common.json.JsonUtils;
+import com.yuandu.App;
 import com.yuandu.user.dao.model.UserEntity;
 import com.yuandu.redis.repository.RedisObjectRepository;
 import com.yuandu.user.service.UserService;
@@ -10,10 +14,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import yuandu_common.date.DateUtils;
-import yuandu_common.exceptions.YuanduBaseException;
-import yuandu_common.exceptions.YuanduExceptionCode;
-import yuandu_common.json.JsonUtils;
 
 import java.util.Date;
 
@@ -33,7 +33,7 @@ public class TestUser {
 //    @Transactional
     public void test() throws Exception {
         UserEntity user = new UserEntity();
-        user.setId(5L);
+        user.setId(6L);
         user.setName("龙");
         user.setSex(1);
         user.setYuanduId("yuandu1");
@@ -43,7 +43,7 @@ public class TestUser {
 
         redisObjectRepository.add("user_redis", user, 600L);
 
-        YuanduBaseException.throwException(YuanduExceptionCode.IO_WRONG);
+        //YuanduBaseException.throwException(YuanduExceptionCode.IO_WRONG);
     }
 
     @org.junit.Test
