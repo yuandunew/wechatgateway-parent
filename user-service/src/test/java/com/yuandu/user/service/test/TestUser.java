@@ -10,6 +10,7 @@ import com.yuandu.redis.repository.RedisObjectRepository;
 import com.yuandu.user.service.UserService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -29,11 +30,10 @@ public class TestUser {
 
     private Logger logger = LogManager.getLogger(TestUser.class);
 
-    @org.junit.Test
-//    @Transactional
+    @Test
     public void test() throws Exception {
         UserEntity user = new UserEntity();
-        user.setId(7L);
+        user.setId(8L);
         user.setName("龙");
         user.setSex(1);
         user.setYuanduId("yuandu1");
@@ -46,7 +46,7 @@ public class TestUser {
         //YuanduBaseException.throwException(YuanduExceptionCode.IO_WRONG);
     }
 
-    @org.junit.Test
+    @Test
     public void test2(){
         Object user = redisObjectRepository.get("user_redis");
         if(user != null){

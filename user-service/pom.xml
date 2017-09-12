@@ -43,7 +43,11 @@
             <groupId>com.yuandu</groupId>
             <artifactId>yuandu-redis</artifactId>
         </dependency>
-        
+        <dependency>
+            <groupId>com.yuandu</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
