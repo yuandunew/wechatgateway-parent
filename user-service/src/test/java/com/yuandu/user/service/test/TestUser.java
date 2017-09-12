@@ -35,7 +35,7 @@ public class TestUser {
         UserEntity user = new UserEntity();
         user.setId(9L);
         user.setName("龙");
-        user.setSex(1);
+        user.setSex(new Byte("1"));
         user.setYuanduId("yuandu1");
         user.setMobeile("18476030086");
         user.setBirthday(DateUtils.getAfterDate(new Date(), 1));
