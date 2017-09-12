@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @FeignClient(name = "user")
-public  interface UserServiceRemote {
+public interface UserServiceRemote {
 
     @RequestMapping(value = "/group/{groupId}", method = RequestMethod.GET)
     String findByGroupId(@PathVariable("groupId") Integer adGroupId);
