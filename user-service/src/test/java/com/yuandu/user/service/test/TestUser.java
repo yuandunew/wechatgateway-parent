@@ -12,6 +12,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -20,7 +21,8 @@ import java.util.Date;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = TestApp.class)
-public class TestUser {
+@MapperScan("com.yuandu.user.dao.mapper")
+public class TestUser extends TestApp{
 
     @Autowired
     private UserService userService;
@@ -35,7 +37,7 @@ public class TestUser {
         UserEntity user = new UserEntity();
         user.setId(9L);
         user.setName("龙");
-        user.setSex(new Byte("1"));
+        user.setSex(1);
         user.setYuanduId("yuandu1");
         user.setMobeile("18476030086");
         user.setBirthday(DateUtils.getAfterDate(new Date(), 1));
