@@ -49,12 +49,8 @@ public class TestUser extends TestApp{
     }
 
     @Test
-    public void test2(){
-        Object user = redisObjectRepository.get("user_redis");
-        if(user != null){
-            UserEntity userEntity = (UserEntity)user;
-            logger.info(JsonUtils.toJson(userEntity));
-        }
+    public void testRemove(){
+        userService.remove(1L);
     }
 
 

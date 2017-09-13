@@ -36,3 +36,5 @@ mybatis:
       username: root
       password: 123456
 
+logger:
+  level: info

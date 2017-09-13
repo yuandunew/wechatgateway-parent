@@ -13,4 +13,8 @@ public class UserService {
     public void save(UserEntity userEntity){
         userEntityMapper.insert(userEntity);
     }
+
+    public void remove(Long id){
+        userEntityMapper.remove(id);
+    }
 }
