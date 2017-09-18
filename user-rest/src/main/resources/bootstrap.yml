@@ -21,6 +21,3 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.user.name}:${eureka.user.password}@discovery:8760/eureka/
       healthcheck: true
-
-logging:
-  level: DEBUG

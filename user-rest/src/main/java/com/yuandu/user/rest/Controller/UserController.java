@@ -20,9 +20,10 @@ public class UserController {
      *
      * @return
      */
-        @RequestMapping(path = "/configs", method = RequestMethod.GET)
+    @RequestMapping(path = "/configs", method = RequestMethod.GET)
     @ResponseBody
     public String orderByPo() {
+        logger.info("user controller log test = "+ eurekaUserName);
         return eurekaUserName;
     }
 

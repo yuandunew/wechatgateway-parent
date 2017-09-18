@@ -4,17 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yuandu</groupId>
-    <artifactId>user-parent</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-
     <parent>
         <groupId>com.yuandu</groupId>
         <artifactId>yuandu-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <groupId>com.yuandu</groupId>
+    <artifactId>user-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>user-service</module>

@@ -35,6 +35,11 @@
             <groupId>com.yuandu</groupId>
             <artifactId>spring-test</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.yuandu</groupId>
+            <artifactId>yuandu-flume-appender</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
     </dependencies>
 
