@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ecb0ba4-cf6a-4a18-b309-fcd7e2ce11fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-api/wechatgateway-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-parent.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/wechatgateway-rest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/wechatgateway-service.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/user_rest_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/user_rest_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_1_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-api/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-api/src/main/java/com/yuandu/user/api/dto/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-parent.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-rest/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-rest/src/main/java/com/yuandu/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-rest/src/main/java/com/yuandu/user/rest/Controller/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-rest/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-rest/src/main/resources/bootstrap.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-rest/src/main/resources/logback-spring.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-service/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-service/src/main/java/com/yuandu/user/remote/UserServiceRemote.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-service/src/main/java/com/yuandu/user/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-service/src/main/resources/generator/mybatis-generator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-service/src/main/resources/generator/mybatis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-service/src/test/java/com/yuandu/user/service/test/TestUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user-service/src/test/resources/application.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/wechatgateway-rest/target/" />
     <ignored path="$PROJECT_DIR$/wechatgateway-api/target/" />
@@ -134,11 +103,6 @@
             <path>
               <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505746330121</updated>
-      <workItem from="1505746333844" duration="283000" />
+      <workItem from="1505746333844" duration="385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283000" />
+    <option name="totallyTimeSpent" value="385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
@@ -283,10 +247,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
