@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/user-api/user-api.iml" filepath="$PROJECT_DIR$/user-api/user-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-parent.iml" filepath="$PROJECT_DIR$/user-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-rest/user-rest.iml" filepath="$PROJECT_DIR$/user-rest/user-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechatgateway-api/wechatgateway-api.iml" filepath="$PROJECT_DIR$/wechatgateway-api/wechatgateway-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechatgateway-parent.iml" filepath="$PROJECT_DIR$/wechatgateway-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechatgateway-rest/wechatgateway-rest.iml" filepath="$PROJECT_DIR$/wechatgateway-rest/wechatgateway-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechatgateway-service/wechatgateway-service.iml" filepath="$PROJECT_DIR$/wechatgateway-service/wechatgateway-service.iml" />
     </modules>
   </component>
 </project>

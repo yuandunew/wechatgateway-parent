@@ -12,14 +12,14 @@
     </parent>
 
     <groupId>com.yuandu</groupId>
-    <artifactId>user-parent</artifactId>
+    <artifactId>wechatgateway-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>user-service</module>
-        <module>user-rest</module>
-        <module>user-api</module>
+        <module>wechatgateway-service</module>
+        <module>wechatgateway-rest</module>
+        <module>wechatgateway-api</module>
     </modules>
 
 
