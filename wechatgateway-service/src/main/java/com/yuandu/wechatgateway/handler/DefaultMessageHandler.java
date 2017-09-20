@@ -2,15 +2,15 @@ package com.yuandu.wechatgateway.handler;
 
 import org.springframework.stereotype.Component;
 
-import com.lifesense.base.beans.param.RequestHeader;
-import com.lifesense.base.constant.AppType;
-import com.lifesense.base.dto.wechatgateway.WechatReceiveMessage;
-import com.lifesense.soa.wechatgateway.context.WechatMessageContext;
-import com.lifesense.soa.wechatgateway.dto.enums.WechatMessageTypeEnum;
-import com.lifesense.soa.wechatgateway.dto.receive.WechatReceiveDeviceStatusEventMessage;
-import com.lifesense.soa.wechatgateway.request.WechatRequest;
-import com.lifesense.soa.wechatgateway.response.SimpleResponse;
-import com.lifesense.soa.wechatgateway.response.WechatResponse;
+import com.yuandu.base.beans.param.RequestHeader;
+import com.yuandu.base.constant.AppType;
+import com.yuandu.base.dto.wechatgateway.WechatReceiveMessage;
+import com.yuandu.soa.wechatgateway.context.WechatMessageContext;
+import com.yuandu.soa.wechatgateway.dto.enums.WechatMessageTypeEnum;
+import com.yuandu.soa.wechatgateway.dto.receive.WechatReceiveDeviceStatusEventMessage;
+import com.yuandu.soa.wechatgateway.request.WechatRequest;
+import com.yuandu.soa.wechatgateway.response.SimpleResponse;
+import com.yuandu.soa.wechatgateway.response.WechatResponse;
 
 /**
  * 

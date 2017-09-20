@@ -2,75 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ecb0ba4-cf6a-4a18-b309-fcd7e2ce11fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/Controller/ProductLineApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/Controller/ThirdApiApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/Controller/WechatgatewayApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/BaseParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/DeviceAuthorizeReq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/DeviceAuthorizeResp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/GenQrcodeReq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/GenQrcodeResp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/GetJSSDKSignatureParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/GetWechatInfoBySnsParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/GetWechatOpenIdParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/PlCheckSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/SendNewsParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/VerifyQrcodeReq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/WechatBaseParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/WechatDeviceStatusReq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/vo/CreateDeviceQrcodeVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/vo/ThirdAuthorizeParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DefaultMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DeviceEventMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/EventMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/TextMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/WechatMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/request/WechatRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/response/SimpleResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/response/TextResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/response/WechatResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/AccessTokenResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/WechatGatewayAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/WechatGatewayForwardService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/WechatGatewayForwardServiceV2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/WechatGatewayService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/WechatGatewayServiceV2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/constants/WechatGratewayKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/AccessTokenDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/MPAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/MPAccountWhitelist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/MPUrl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/NotSendMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/NotSendMessageQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/QueryMPUserParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/TestMQ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/TicketDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/enums/ResponseEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/message/BpData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/CustomerResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/HttpResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/QrLimitSceneActonInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/QrLimitSceneParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/QrScenActionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/QrScenStrActionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/QrSceneParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/QrSceneStrParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/SceneID.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/SceneStr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/Base64Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/DataUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/HealthappOpenIdVerify.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/LogUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/MPAccountUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/MPManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/ThreadPoolRankUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/ThreadPoolUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/utils/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/utils/ThreadPoolRankUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/utils/WechatMessageReader.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/UserService.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/GetMPAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/UpdateMPAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/WechatMessageReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/WechatMessageServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wechatgateway-service/src/test/java/com/yuandu/user/service/test/TestUser.java" afterPath="$PROJECT_DIR$/wechatgateway-service/src/test/java/com/yuandu/user/service/test/TestUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DefaultMessageHandler.java" afterPath="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DefaultMessageHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/wechatgateway-rest/target/" />
     <ignored path="$PROJECT_DIR$/wechatgateway-api/target/" />
@@ -85,101 +22,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/App.java">
+      <file leaf-file-name="UserServiceRemote.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/remote/UserServiceRemote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="75">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThirdApiApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/Controller/ThirdApiApplication.java">
+      <file leaf-file-name="WechatRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/request/WechatRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-558">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/Controller/UserController.java">
+      <file leaf-file-name="UpdateMPAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/UpdateMPAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="77">
+              <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerifyQrcodeReq.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/VerifyQrcodeReq.java">
+      <file leaf-file-name="WechatMessageReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/WechatMessageReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="72" column="13" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateDeviceQrcodeVo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/vo/CreateDeviceQrcodeVo.java">
+      <file leaf-file-name="WechatMessageServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/WechatMessageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/enums/ResponseEnum.java">
+      <file leaf-file-name="GetMPAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/GetMPAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-310">
+              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BpData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/message/BpData.java">
+      <file leaf-file-name="DeviceEventMessageHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DeviceEventMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="92">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QrLimitSceneParam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/dto/response/QrLimitSceneParam.java">
+      <file leaf-file-name="EventMessageHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/EventMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="42">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils/LogUtils.java">
+      <file leaf-file-name="TextMessageHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/TextMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-68">
+              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadPoolRankUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/utils/ThreadPoolRankUtils.java">
+      <file leaf-file-name="WechatMessageHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/WechatMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="2154">
+              <caret line="181" column="28" lean-forward="false" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -214,6 +151,8 @@
         <option value="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/Controller/ThirdApiApplication.java" />
         <option value="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto/VerifyQrcodeReq.java" />
         <option value="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/vo/CreateDeviceQrcodeVo.java" />
+        <option value="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DefaultMessageHandler.java" />
+        <option value="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/UpdateMPAccount.java" />
       </list>
     </option>
   </component>
@@ -252,6 +191,62 @@
               <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yuandu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yuandu" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wechatgateway-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wechatgateway-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yuandu" type="462c0819:PsiDirectoryNode" />
+              <item name="wechatgateway" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -267,11 +262,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet" />
       <recent name="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/vo" />
       <recent name="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/dto" />
       <recent name="$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/rest/Controller" />
       <recent name="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/utils" />
-      <recent name="$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/service/utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,12 +380,20 @@
       <option name="presentableId" value="Default" />
       <updated>1505746330121</updated>
       <workItem from="1505746333844" duration="1288000" />
-      <workItem from="1505917129801" duration="886000" />
+      <workItem from="1505917129801" duration="1777000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1505918091742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505918091742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2174000" />
+    <option name="totallyTimeSpent" value="3065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -430,6 +433,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -509,30 +516,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/remote/UserServiceRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DeviceEventMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/request/WechatRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -648,6 +631,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DefaultMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/DeviceEventMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/EventMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/TextMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/handler/WechatMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2154">
+          <caret line="181" column="28" lean-forward="false" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/remote/UserServiceRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-service/src/main/java/com/yuandu/wechatgateway/request/WechatRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/GetMPAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/UpdateMPAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/WechatMessageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="72" column="13" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechatgateway-rest/src/main/java/com/yuandu/wechatgateway/servlet/WechatMessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
