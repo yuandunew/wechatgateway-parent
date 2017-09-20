@@ -7,7 +7,6 @@ import com.yuandu.common.exceptions.YuanduExceptionCode;
 import com.yuandu.common.json.JsonUtils;
 import com.yuandu.user.dao.model.UserEntity;
 import com.yuandu.redis.repository.RedisObjectRepository;
-import com.yuandu.user.service.UserService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Test;
